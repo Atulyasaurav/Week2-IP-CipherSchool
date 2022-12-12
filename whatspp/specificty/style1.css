@@ -1,0 +1,22 @@
+/* the specificity = inline style attribute > id selctor > class selector > element selctor */
+
+h1{
+    color: blue;
+}
+
+.a{
+    color: aqua;
+}
+
+#a{
+   color: yellowgreen !important;  /* if we put important , then the specificity will be greatest */
+}
+
+
+.x{
+    color: blueviolet;
+}
+/* this two or more class in same entity , then the lowest one will have the higest preferance in css */
+.y{
+    color: blue;
+}

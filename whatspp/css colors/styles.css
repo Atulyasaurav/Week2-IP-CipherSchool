@@ -1,0 +1,14 @@
+h1{
+    /* this rgb stand for red green blue */
+    /* color are in form of (123456789abcdef) */
+    
+    background-color: #cdcdcd;
+           /* first 2 for red , second 2 for green and another 2 for blue */
+    color: #ad12ea;
+    /* so by the help of this we can create and choose our colour */
+    color:#ff0000;
+    /* for pure red */
+    color: #fff;
+    /* for pure white color */
+
+}

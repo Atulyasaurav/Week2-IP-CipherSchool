@@ -1,0 +1,16 @@
+/* a{
+    border: 2px solid red;
+    margin: 100px;
+    padding: 200px;
+    height: 100px;
+    width: 100;
+} */
+
+a{
+    /* now this inline element act as block lvl  */
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    height: 40px;
+}

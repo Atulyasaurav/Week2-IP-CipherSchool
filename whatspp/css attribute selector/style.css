@@ -1,0 +1,22 @@
+/* this is to select the attribute */
+input[type="text"]{
+    color:yellowgreen;
+    background-color: black;
+    /* this will select the link */
+}
+a[href="https://google.co.in"]{
+    color: black;
+    /* this will select all the limk with same name with google */
+}
+a[href*="google"]{
+    color: brown;
+
+    /* this will select all the link with same name in https */
+}
+a[href ^= "https"]{
+    color: aqua;
+}
+/* this will change the color of link whose end with .com  */
+a[href $= ".com"]{
+    color: aliceblue;
+}

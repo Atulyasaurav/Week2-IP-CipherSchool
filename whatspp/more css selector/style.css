@@ -1,0 +1,33 @@
+header{
+    background-color: antiquewhite;
+}
+section.my-articles{
+    background-color: beige;
+}
+/* this is a universal selctor */
+/*       *{      */
+    /*     color: blue;     */
+/* } */
+
+/* this is a decentent and combinator selector: which mean header inside paragraph css */
+header p{
+    color: aqua;
+}
+li a{
+    color: yellowgreen;
+}
+section.my-articles h2{
+    color: red;
+}
+/* this is direct child combinator */
+section > h2{
+    background-color: yellowgreen;
+}
+h2+p{
+    background-color: black;
+    color: yellowgreen;
+}
+ul+p{
+    color: orangered;
+    background-color: black;
+}

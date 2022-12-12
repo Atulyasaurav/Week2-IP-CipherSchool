@@ -1,0 +1,21 @@
+h1{
+    background-color: gray;
+    border: 10px solid gray;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+.a{
+    border: 4px solid black;o
+    padding: 20px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+.b{
+    border: 4px solid black;
+    padding: 20px;
+    margin-left: 200px ;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}

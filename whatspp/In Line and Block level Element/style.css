@@ -1,0 +1,30 @@
+.a,.b{
+    border: 2px solid red;
+}
+.a,.b{
+    /* there will be only left and right margin no margin in top and bottom */
+    margin: 20px;
+}
+.a{
+    /* the top and bottom will take padding but will mess up */
+    padding: 100px;
+}
+.b{
+    /* now this will change the property of inline elment to block level elment */
+    display: block;
+
+    padding: 0 500px;
+}
+.c,.d{
+    border:2px solid blue
+}
+.c,.d{
+    padding: 40px;
+}
+.c,.d{
+    margin: 40px;
+}
+.c{
+    /* this will chage the property of an element */
+    display: inline;
+}
